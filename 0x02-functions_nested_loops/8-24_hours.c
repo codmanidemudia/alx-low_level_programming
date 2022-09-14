@@ -1,14 +1,31 @@
 #include "main.h"
 /**
- *print_last_digit - print last digit of a number
- *@n:Is the int to be used for the argument function
- * Return: value of the last digit
+ *jack_bauer - function that prints every minutes of the day of jack bauer
+ *n from 00:00 to 23:59, min loop counts, while hour loop counts hours
+ * and resets min
+ * Return: 0
  */
-int print_last_digit(int n)
+void jack_bauer(void)
 {
-int last_digit = n % 10;
-if (last_digit < 0)
-last_digit *= -1;
-_putchar(last_digit + '0');
-return (last_digit);
+int hours = 0;
+int minutes = 0;
+int hours_remainder;
+int mins_remainder;
+while (hours <= 23)
+{
+while (minutes <= 59)
+{
+mins_remainder = minutes % 10;
+hours_remainder = hours % 10;
+_putchar(hours / 10 + '0');
+_putcahr(hours_remainder + '0');
+_putchar(':');
+_putchar(minutes / 10 '0');
+_putchar(mins_remainder + '0');
+menutes++;
+_putchar('\n');
+}
+hours++;
+minutes = 0;
+}
 }
