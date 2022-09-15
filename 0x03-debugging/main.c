@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 /**
 * main - tests function that prints if integer is positive or negative
@@ -7,6 +6,8 @@
 int main(void)
 {
 int i;
-i = 0
+prinf("Infinite loop incoming :(\n");
+i = 0;
+printf("infinite loop avoided! \\o/\n");
 return (0);
 }
