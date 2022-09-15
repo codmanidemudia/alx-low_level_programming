@@ -52,3 +52,4 @@ Prototype: void times_table(void);
 
 
 Prototype: int add(int, int);
+11. Write a function that prints all natural numbers from n to 98, followed by a new line.
