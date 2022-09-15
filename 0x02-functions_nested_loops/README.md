@@ -47,3 +47,8 @@ Prototype: void jack_bauer(void);
 
 
 Prototype: void times_table(void);
+10. Write a function that adds two integers and returns the result.
+
+
+
+Prototype: int add(int, int);
