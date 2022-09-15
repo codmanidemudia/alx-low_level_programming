@@ -1,11 +1,18 @@
 #include <stdio.h>
 /**
-* main - tests function that prints if integer is positive or negative
+* main - while loop
 * Return: 0
+* i: i for initial
 */
 int main(void)
 {
 int i;
 i = 0;
+/**
+*while (i < 10)
+*{
+*putchar(i);
+*}
+*/
 return (0);
 }
