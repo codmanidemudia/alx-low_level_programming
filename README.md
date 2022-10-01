@@ -1,2 +1,1 @@
-# alx-low_level_programming
-ALX C programming project
+0. Write a function that prints a string, followed by a new line.
